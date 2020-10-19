@@ -1,0 +1,22 @@
+{
+    "name": "innotize/datatables",
+    "description": "SSP variant for the getInnotized Framework.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Chris Debrah",
+            "email": "chris.debrah@yahoo.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "GetInnotized\\":"src"
+        },
+        "classmap": [
+            "src"
+          ]
+    }
+}
